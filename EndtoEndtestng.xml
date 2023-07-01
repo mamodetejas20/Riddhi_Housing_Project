@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="org.Utilities.ListenerClass"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="HousingSocietyTestCases.LoginPageTc" />
+			<class name="HousingSocietyTestCases.HomePageTc" />
+			<class name="HousingSocietyTestCases.DashBoardTc" />
+			<class name="HousingSocietyTestCases.SectionPageTc" />
+			<class name="HousingSocietyTestCases.AddContentTc" />
+			<class name="HousingSocietyTestCases.ViewContentTc" />
+			<class name="HousingSocietyTestCases.AddRecieptTc" />
+			<class name="HousingSocietyTestCases.ViewRecieptTc" />
+			<class name="HousingSocietyTestCases.AddUserTc" />
+			<class name="HousingSocietyTestCases.ListResidentsTc" />
+			<class name="HousingSocietyTestCases.ListTenants" />
+			<class name="HousingSocietyTestCases.AddExpensesTc" />
+			<class name="HousingSocietyTestCases.ListExpensesTc" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
