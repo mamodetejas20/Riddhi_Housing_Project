@@ -26,7 +26,6 @@ public class SectionPageTc {
 	SectionPage sectionpage;
 	ConFig cr;
 
-
 	@BeforeMethod
 	public void Launch() {
 		BaseUtility bu= new	BaseUtility();
