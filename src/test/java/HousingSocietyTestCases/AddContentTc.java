@@ -26,7 +26,7 @@ public class AddContentTc {
 		BaseUtility bu = new BaseUtility();
 		ConFig cr = new ConFig();
 		driver=bu.Startup(cr.getTestData("Bname"),cr.getTestData("url"));
-		
+		System.out.println();
 		
 	}
 	@Test(priority=10)

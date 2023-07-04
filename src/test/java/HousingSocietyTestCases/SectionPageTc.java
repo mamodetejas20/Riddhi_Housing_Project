@@ -69,9 +69,9 @@ public class SectionPageTc {
 
 
 
-		//	}
-		//	@AfterMethod
-		//	public void teardown() {
-		//		driver.close();
+			}
+			@AfterMethod
+			public void teardown() {
+				driver.close();
 	}
 }
